@@ -1,0 +1,5 @@
+__pxcache__/
+*.pyc
+.idea/
+.ipynb_checkpoints/
+*.html
