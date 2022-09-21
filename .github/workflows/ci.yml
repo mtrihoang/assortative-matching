@@ -1,0 +1,23 @@
+name: Continuous Integration
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+           activate-environment: student_project
+           environment-file: environment.yml
+           python-version: 3.6
+           auto-activate-base: false
+    - name: execute notebooks
+      shell: bash -l {0}
+      run: |
+        export PATH="$PATH:/usr/share/miniconda/bin"
+        source .envrc
+        jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=120 *.ipynb
