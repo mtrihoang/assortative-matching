@@ -1,0 +1,21 @@
+name: student_project
+
+channels:
+  - conda-forge
+  - defaults
+  - brown-data-science
+
+dependencies:
+- numpy
+- pandas
+- jupyterlab
+- matplotlib
+- seaborn
+- scipy
+- statsmodels
+- linearmodels
+- geopandas
+- pip
+- pip:
+
+
