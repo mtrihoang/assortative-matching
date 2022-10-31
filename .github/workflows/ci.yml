@@ -11,14 +11,11 @@ jobs:
     - uses: actions/checkout@v2
     - uses: conda-incubator/setup-miniconda@v2.1.1
       with:
-           activate-environment: student_project
-           environment-file: environment.yml
-           python-version: 3.11.0
-           auto-activate-base: false
+           ....
+           .... 
            mamba-version: "*"
            channels: conda-forge
            channel-priority: true
-           
     - name: execute notebooks
       shell: bash -l {0}
       run: |
