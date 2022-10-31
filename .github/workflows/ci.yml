@@ -13,7 +13,7 @@ jobs:
       with:
            activate-environment: student_project
            environment-file: environment.yml
-           python-version: 3.6
+           python-version: 3.11.0
            auto-activate-base: false
     - name: execute notebooks
       shell: bash -l {0}
