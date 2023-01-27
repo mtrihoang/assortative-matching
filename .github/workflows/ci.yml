@@ -13,15 +13,11 @@ jobs:
       with:
            activate-environment: student_project
            environment-file: environment.yml
-           python-version: 3.8
+           python-version: 3.6
            auto-activate-base: false
-           mamba-version: "*"
-           channels: conda-forge
-           channel-priority: true
     - name: execute notebooks
       shell: bash -l {0}
       run: |
         export PATH="$PATH:/usr/share/miniconda/bin"
-        conda activate student_project 
         source .envrc
         jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=120 *.ipynb

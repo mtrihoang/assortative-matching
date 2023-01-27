@@ -14,8 +14,8 @@ Overall, the results in this notebook strongly support the empirical findings re
 
 A typical project notebook has the following structure:
 
-* presentation of baseline article with proper citation and brief summary
-* using causal graphs to illustrate the authors' identification strategy
-* replication of selected key results
-* critical assessment of quality
-* independent contribution, e.g. additional external evidence, robustness checks, visualization
+* Presentation of baseline article with proper citation and brief summary.
+* Using causal graphs to illustrate the authors' identification strategy.
+* Replication of selected key results.
+* Critical assessment of quality.
+* Independent contribution, e.g. additional external evidence, robustness checks, visualization.
