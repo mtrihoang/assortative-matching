@@ -1,6 +1,7 @@
-# OSE Data Science Project | Minh Tri Hoang | Summer Semester 2021
+OSE Data Science Project | Minh Tri Hoang | Summer Semester 2021
+================================================================
 
-For my final project, I replicate results from the following paper ``Ran, Abramitzky, Ran, Adeline Delavande, and Luis Vasconcelos. 2011. "Marrying Up: The Role of Sex Ratio in Assortative Matching." American Economic Journal: Applied Economics, 3 (3): 124-57``.
+For my final project, I replicate results from the following paper ``Abramitzky, Ran, Adeline Delavande, and Luis Vasconcelos. 2011. "Marrying Up: The Role of Sex Ratio in Assortative Matching." American Economic Journal: Applied Economics, 3 (3): 124-57``.
 
 ## Project overview
 
